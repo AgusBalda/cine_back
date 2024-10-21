@@ -1,4 +1,4 @@
-# Proyecto de Cine - Aplicación Web
+# Proyecto de Cine - Aplicación Web - Grupo 8
 
 ## Repositorio Back
 
@@ -25,3 +25,11 @@ La solución se compone de tres proyectos:
    ```bash
    git clone https://github.com/AgusBalda/cine_back.git
    cd cine_back
+
+## Integrantes
+
+    Aciar Pablo 114148
+    Almada Joaquin 412180
+    Baigorria Damián 412085
+    Baldassari Agustin 412082
+    Cortez Joaquin 412142

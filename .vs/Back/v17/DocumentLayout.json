@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agust\\OneDrive\\Desktop\\Nueva carpeta (2)\\cine_back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\agust\\onedrive\\desktop\\nueva carpeta (2)\\cine_back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\OneDrive\\Desktop\\Nueva carpeta (2)\\cine_back\\Back\\Program.cs",
+              "RelativeDocumentMoniker": "Back\\Program.cs",
+              "ToolTip": "C:\\Users\\agust\\OneDrive\\Desktop\\Nueva carpeta (2)\\cine_back\\Back\\Program.cs",
+              "RelativeToolTip": "Back\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:02:35.332Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
