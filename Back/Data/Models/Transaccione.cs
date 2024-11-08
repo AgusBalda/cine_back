@@ -2,7 +2,6 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace Back.Data.Models;
 
@@ -19,12 +18,12 @@ public partial class Transaccione
     public int? IdEstado { get; set; }
 
     public int? IdUsuario { get; set; }
-    [JsonIgnore]
+
     public virtual MetodosPago CodPagoNavigation { get; set; }
-    [JsonIgnore]
+
     public virtual Estado IdEstadoNavigation { get; set; }
-    [JsonIgnore]
+
     public virtual Usuario IdUsuarioNavigation { get; set; }
-    [JsonIgnore]
+
     public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
 }

@@ -16,6 +16,8 @@ builder.Services.AddScoped<ITransaccionRepository, TransaccionRepository>();
 builder.Services.AddScoped<ITransaccionService, TransaccionService>();
 builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
 builder.Services.AddScoped<IFuncionService, FuncionService>();
+builder.Services.AddScoped<IPeliculasRepository, PeliculaRepository>();
+builder.Services.AddScoped<IPeliculaService, PeliculaService>();
 
 
 builder.Services.AddCors(options =>

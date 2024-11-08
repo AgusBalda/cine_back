@@ -182,6 +182,10 @@ public partial class CineDBContext : DbContext
             entity.Property(e => e.IdDirector).HasColumnName("id_director");
             entity.Property(e => e.IdGenero).HasColumnName("id_genero");
             entity.Property(e => e.IdIdioma).HasColumnName("id_idioma");
+            entity.Property(e => e.Portada)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("portada");
             entity.Property(e => e.Titulo)
                 .HasMaxLength(100)
                 .IsUnicode(false)

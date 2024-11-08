@@ -2,7 +2,6 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace Back.Data.Models;
 
@@ -19,6 +18,6 @@ public partial class Usuario
     public string Contrasena { get; set; }
 
     public bool? EsAdmin { get; set; }
-    [JsonIgnore]
+
     public virtual ICollection<Transaccione> Transacciones { get; set; } = new List<Transaccione>();
 }

@@ -2,6 +2,7 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Back.Data.Models;
 
@@ -23,13 +24,15 @@ public partial class Pelicula
 
     public int? IdIdioma { get; set; }
 
+    public string Portada { get; set; }
+    [JsonIgnore]
     public virtual ICollection<Funcione> Funciones { get; set; } = new List<Funcione>();
-
+    [JsonIgnore]
     public virtual ClasificacionesEdad IdClasificacionNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual Directore IdDirectorNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual Genero IdGeneroNavigation { get; set; }
-
+    [JsonIgnore]
     public virtual Idioma IdIdiomaNavigation { get; set; }
 }
