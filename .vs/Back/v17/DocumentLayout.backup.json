@@ -1,38 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\3\\cine_back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\data\\models\\transaccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\models\\transaccione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\3\\cine_back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\data\\service\\interfaces\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\interfaces\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\data\\service\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\data\\repository\\interfaces\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\interfaces\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\desktop\\tecnicatura en programaci\u00F3n\\programacion ii\\tp integrador\\cine_back\\back\\data\\repository\\repositories\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\repositories\\transaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,106 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Transaccione.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Models\\Transaccione.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Models\\Transaccione.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Models\\Transaccione.cs",
-              "RelativeToolTip": "Back\\Data\\Models\\Transaccione.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T21:54:20.22Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransaccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Controllers\\TransaccionesController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Controllers\\TransaccionesController.cs",
-              "RelativeToolTip": "Back\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:30:13.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransaccionService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:25:05.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITransaccionService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Service\\Interfaces\\ITransaccionService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Interfaces\\ITransaccionService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Service\\Interfaces\\ITransaccionService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Interfaces\\ITransaccionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:21:30.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TransaccionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Repository\\Repositories\\TransaccionRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Repositories\\TransaccionRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Repository\\Repositories\\TransaccionRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Repositories\\TransaccionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T22:00:48.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITransaccionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Repository\\Interfaces\\ITransaccionRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Interfaces\\ITransaccionRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Data\\Repository\\Interfaces\\ITransaccionRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Interfaces\\ITransaccionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T21:56:25.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Back\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAYwKAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:47:34.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\3\\cine_back\\Back\\Program.cs",
               "RelativeDocumentMoniker": "Back\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Tecnicatura en Programaci\u00F3n\\Programacion II\\Tp Integrador\\cine_back\\Back\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\3\\cine_back\\Back\\Program.cs",
               "RelativeToolTip": "Back\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T15:02:35.332Z",
+              "WhenOpened": "2024-11-08T01:51:53.446Z",
               "EditorCaption": ""
             }
           ]

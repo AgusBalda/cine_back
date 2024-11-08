@@ -1,5 +1,95 @@
 [
   {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Get",
+    "RelativePath": "api/Funciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Post",
+    "RelativePath": "api/Funciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcion",
+        "Type": "Back.Data.Models.Funcione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Put",
+    "RelativePath": "api/Funciones",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcion",
+        "Type": "Back.Data.Models.Funcione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Get",
+    "RelativePath": "api/Funciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Delete",
+    "RelativePath": "api/Funciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Funciones/Dia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dia",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Back.Controllers.TransaccionesController",
     "Method": "Get",
     "RelativePath": "api/Transacciones",
