@@ -1,10 +1,11 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /Back
 
-COPY *.csproj .
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+COPY Back/*.csproj ./
 RUN dotnet restore
 
-COPY . .
+COPY Back/. ./
 RUN dotnet publish -c Release -o /out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
