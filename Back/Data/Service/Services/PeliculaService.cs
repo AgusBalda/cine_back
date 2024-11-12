@@ -7,8 +7,8 @@ namespace Back.Data.Service.Services
 {
     public class PeliculaService : IPeliculaService
     {
-        IPeliculasRepository _repository;
-        IUtils _utils;
+        private readonly IPeliculasRepository _repository;
+        private readonly IUtils _utils;
 
         public PeliculaService(IPeliculasRepository repository, IUtils utils)
         {

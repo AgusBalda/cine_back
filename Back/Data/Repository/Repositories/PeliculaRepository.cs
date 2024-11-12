@@ -6,7 +6,7 @@ namespace Back.Data.Repository.Repositories
 {
     public class PeliculaRepository : IPeliculasRepository
     {
-        CineDBContext _context;
+        private readonly CineDBContext _context;
 
         public PeliculaRepository(CineDBContext context)
         {

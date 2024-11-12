@@ -10,7 +10,7 @@ namespace Back.Controllers
     [ApiController]
     public class TransaccionesController : ControllerBase
     {
-        ITransaccionService _service;
+        private readonly ITransaccionService _service;
 
         public TransaccionesController(ITransaccionService service)
         {

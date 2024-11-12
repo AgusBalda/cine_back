@@ -6,7 +6,7 @@ namespace Back.Data.Service.Services
 {
     public class TransaccionService : ITransaccionService
     {
-        ITransaccionRepository _repository;
+        private readonly ITransaccionRepository _repository;
 
         public TransaccionService(ITransaccionRepository repository)
         {

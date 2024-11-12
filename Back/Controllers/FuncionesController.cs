@@ -10,7 +10,7 @@ namespace Back.Controllers
     [ApiController]
     public class FuncionesController : ControllerBase
     {
-        IFuncionService _service;
+        private readonly IFuncionService _service;
 
         public FuncionesController(IFuncionService service)
         {

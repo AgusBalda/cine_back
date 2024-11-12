@@ -6,7 +6,7 @@ namespace Back.Data.Service.Services
 {
     public class UsuarioService : IUsuarioService
     {
-        IUsuarioRepository _repository;
+        private readonly IUsuarioRepository _repository;
 
         public UsuarioService(IUsuarioRepository repository)
         {
@@ -23,15 +23,17 @@ namespace Back.Data.Service.Services
             return _repository.SaveAsync(usuario);
         }
 
+        public Task<Usuario>? Login(string correo, string contrasena)
+        {
+            return _repository.Login(correo, contrasena);
+        }
+
         public Task<Usuario>? ObtenerUsuarioPorId(int id)
         {
             return _repository.GetByIdAsync(id);
         }
 
-        public Task<Usuario>? ObtenerUsuarioPorNombre(string nombre, string apellido)
-        {
-            return _repository.GetByNameAsync(nombre, apellido);
-        }
+       
 
         public Task<List<Usuario>> ObtenerUsuarios()
         {

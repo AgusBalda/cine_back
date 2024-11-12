@@ -39,12 +39,13 @@ namespace Back.Data.Repository.Repositories
             return null;
         }
 
-        public async Task<Usuario>? GetByNameAsync(string name, string lastname)
+       
+        public async Task<Usuario>? Login(string correo, string contrasena)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Nombre.Equals(name) && u.Apellido.Equals(lastname));
-            if (usuario != null)
+            var login = await _context.Usuarios.Where(l => l.Email== correo && l.Contrasena == contrasena).FirstOrDefaultAsync();
+            if (login != null)
             {
-                return usuario;
+                return login;
             }
             return null;
         }

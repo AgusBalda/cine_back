@@ -1,5 +1,6 @@
 ﻿using Back.Data.Models;
 using Back.Data.Service.Interfaces;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,7 +11,7 @@ namespace Back.Controllers
     [ApiController]
     public class UsuariosController : ControllerBase
     {
-        IUsuarioService _service;
+        private readonly IUsuarioService _service;
 
         public UsuariosController(IUsuarioService service)
         {
@@ -53,14 +54,23 @@ namespace Back.Controllers
         }
 
         // GET api/<UsuariosController>
-        [HttpGet("buscar")]
-        public async Task<IActionResult> Get([FromQuery]string nombre, [FromQuery]string apellido)
+        [HttpGet("Login")]
+        public async Task<IActionResult> Get([FromQuery]string correo, [FromQuery]string contrasena)
         {
             try
             {
-                if(ValidarNombre(nombre, apellido))
+                if(ValidarNombre(correo, contrasena))
                 {
-                    return Ok(await _service.ObtenerUsuarioPorNombre(nombre, apellido));
+                    var login = await _service.Login(correo, contrasena);
+                    if (login == null) 
+                    {
+                        return StatusCode(401,"Correo o Contraseña incorrecta, Intente nuevamente");
+                    }
+                    else 
+                    {
+                        return Ok(login);
+                    }
+                    
                 }
                 else
                 {
@@ -73,9 +83,9 @@ namespace Back.Controllers
             }
         }
 
-        private bool ValidarNombre(string nombre, string apellido)
+        private bool ValidarNombre(string correo, string contrasena)
         {
-            return !string.IsNullOrEmpty(nombre) && !string.IsNullOrEmpty(apellido);
+            return !string.IsNullOrEmpty(correo) && !string.IsNullOrEmpty(contrasena);
         }
 
         // POST api/<UsuariosController>

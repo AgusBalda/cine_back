@@ -8,7 +8,7 @@ namespace Back.Data.Repository.Repositories
 {
     public class FuncionRepository : IFuncionRepository
     {
-        CineDBContext _context;
+        private readonly CineDBContext _context;
 
         public FuncionRepository(CineDBContext context)
         {

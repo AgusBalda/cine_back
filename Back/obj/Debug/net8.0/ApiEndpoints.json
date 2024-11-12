@@ -346,18 +346,18 @@
   {
     "ContainingType": "Back.Controllers.UsuariosController",
     "Method": "Get",
-    "RelativePath": "api/Usuarios/buscar",
+    "RelativePath": "api/Usuarios/Login",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "nombre",
+        "Name": "correo",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "apellido",
+        "Name": "contrasena",
         "Type": "System.String",
         "IsRequired": false
       }

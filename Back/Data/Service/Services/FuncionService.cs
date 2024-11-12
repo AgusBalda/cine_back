@@ -6,7 +6,7 @@ namespace Back.Data.Service.Services
 {
     public class FuncionService : IFuncionService
     {
-        IFuncionRepository _repository;
+        private readonly IFuncionRepository _repository;
 
         public FuncionService(IFuncionRepository repository)
         {

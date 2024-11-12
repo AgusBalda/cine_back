@@ -11,7 +11,7 @@ namespace Back.Controllers
     public class PeliculasController : ControllerBase
     {
 
-        IPeliculaService _service;
+        private readonly IPeliculaService _service;
 
         public PeliculasController(IPeliculaService service)
         {
