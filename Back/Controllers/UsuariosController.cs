@@ -60,7 +60,7 @@ namespace Back.Controllers
             {
                 if(ValidarNombre(nombre, contrasena))
                 {
-                    return Ok(await _service.ObtenerUsuarioPorNombre(nombre, contrasena));
+                    return Ok(await _service.Login(nombre, contrasena));
                 }
                 else
                 {
