@@ -4,10 +4,10 @@ namespace Back.Data.Service.Interfaces
 {
     public interface IPeliculaService
     {
-        Task<List<Pelicula>> ObtenerPeliculas();
-        Task<Pelicula>? ObtenerPeliculaPorId(int id);
+        Task<List<PeliculaDto>> ObtenerPeliculas();
+        Task<PeliculaDto>? ObtenerPeliculaPorId(int id);
         Task<bool> GuardarPelicula(Pelicula p);
         Task<bool> EliminarPelicula(int id);
-        Task<Pelicula>? ObtenerPeliculaPorTitulo(string titulo);
+        Task<PeliculaDto>? ObtenerPeliculaPorTitulo(string titulo);
     }
 }

@@ -1,16 +1,19 @@
 ﻿using Back.Data.Models;
 using Back.Data.Repository.Interfaces;
 using Back.Data.Service.Interfaces;
+using Back.Utilities;
 
 namespace Back.Data.Service.Services
 {
     public class PeliculaService : IPeliculaService
     {
         IPeliculasRepository _repository;
+        IUtils _utils;
 
-        public PeliculaService(IPeliculasRepository repository)
+        public PeliculaService(IPeliculasRepository repository, IUtils utils)
         {
             _repository = repository;
+            _utils = utils;
         }
 
         public Task<bool> EliminarPelicula(int id)
@@ -23,19 +26,67 @@ namespace Back.Data.Service.Services
             return _repository.Save(p);
         }
 
-        public Task<Pelicula>? ObtenerPeliculaPorId(int id)
+        public async Task<PeliculaDto>? ObtenerPeliculaPorId(int id)
         {
-            return _repository.GetById(id);
+            var p = await _repository.GetById(id);
+
+            var peliculaDto = new PeliculaDto()
+            {
+                CodPelicula = p.CodPelicula,
+                Titulo = p.Titulo,
+                FechaEstreno = p.FechaEstreno,
+                DuracionMin = p.DuracionMin,
+                Portada = p.Portada,
+                Genero = _utils.GetGender(p.IdGenero.Value),
+                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion.Value),
+                Director = _utils.GetDirector(p.IdDirector.Value),
+                Idioma = _utils.GetLanguage(p.IdIdioma.Value),
+            };
+
+            return peliculaDto;
+
         }
 
-        public Task<Pelicula>? ObtenerPeliculaPorTitulo(string titulo)
+        public async Task<PeliculaDto>? ObtenerPeliculaPorTitulo(string titulo)
         {
-            return _repository.GetByTitle(titulo);
+            var p = await _repository.GetByTitle(titulo);
+
+            var peliculaDto = new PeliculaDto()
+            {
+                CodPelicula = p.CodPelicula,
+                Titulo = p.Titulo,
+                FechaEstreno = p.FechaEstreno,
+                DuracionMin = p.DuracionMin,
+                Portada = p.Portada,
+                Genero = _utils.GetGender(p.IdGenero.Value),
+                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion.Value),
+                Director = _utils.GetDirector(p.IdDirector.Value),
+                Idioma = _utils.GetLanguage(p.IdIdioma.Value),
+            };
+
+            return peliculaDto;
+
         }
 
-        public Task<List<Pelicula>> ObtenerPeliculas()
+        public async Task<List<PeliculaDto>> ObtenerPeliculas()
         {
-            return _repository.GetAll();
+            var peliculas = await _repository.GetAll();
+
+            var peliculasDto = peliculas.Select(p => new PeliculaDto
+            {
+                CodPelicula = p.CodPelicula,
+                Titulo = p.Titulo,
+                FechaEstreno = p.FechaEstreno,
+                DuracionMin = p.DuracionMin,
+                Portada = p.Portada,
+                Genero = _utils.GetGender(p.IdGenero.Value),
+                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion.Value),
+                Director = _utils.GetDirector(p.IdDirector.Value),
+                Idioma = _utils.GetLanguage(p.IdIdioma.Value),
+
+            }).ToList();
+
+            return peliculasDto;
         }
     }
 }

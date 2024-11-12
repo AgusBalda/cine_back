@@ -24,7 +24,8 @@ namespace Back.Controllers
         {
             try
             {
-                return Ok(await _service.ObtenerPeliculas());
+                var peliculasDto = await _service.ObtenerPeliculas();
+                return Ok(peliculasDto);
             }
             catch (Exception ex)
             {
@@ -56,6 +57,34 @@ namespace Back.Controllers
                 }
             }
             catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpGet("titulo")]
+        public async Task<IActionResult> Get(string titulo)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(titulo))
+                {
+                    var pelicula = await _service.ObtenerPeliculaPorTitulo(titulo);
+                    if (pelicula != null)
+                    {
+                        return Ok(pelicula);
+                    }
+                    else
+                    {
+                        return NotFound("Pelicula no encotrada");
+                    }
+                }
+                else
+                {
+                    return BadRequest("Dato requerido ingresado incorrectamente");
+                }
+            }
+            catch(Exception ex)
             {
                 return StatusCode(500, ex.Message);
             }

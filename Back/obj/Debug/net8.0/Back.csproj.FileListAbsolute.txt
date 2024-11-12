@@ -430,3 +430,4 @@ C:\Users\Usuario\Desktop\Tecnicatura en Programación\Programacion II\Integrador
 C:\Users\Usuario\Desktop\Tecnicatura en Programación\Programacion II\Integrador\cine_back\Back\obj\Debug\net8.0\Back.pdb
 C:\Users\Usuario\Desktop\Tecnicatura en Programación\Programacion II\Integrador\cine_back\Back\obj\Debug\net8.0\Back.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Tecnicatura en Programación\Programacion II\Integrador\cine_back\Back\obj\Debug\net8.0\ref\Back.dll
+C:\Users\Usuario\Desktop\Tecnicatura en Programación\Programacion II\Integrador\cine_back\Back\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -3,6 +3,7 @@ using Back.Data.Repository.Interfaces;
 using Back.Data.Repository.Repositories;
 using Back.Data.Service.Interfaces;
 using Back.Data.Service.Services;
+using Back.Utilities;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,7 @@ builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
 builder.Services.AddScoped<IFuncionService, FuncionService>();
 builder.Services.AddScoped<IPeliculasRepository, PeliculaRepository>();
 builder.Services.AddScoped<IPeliculaService, PeliculaService>();
+builder.Services.AddScoped<IUtils, Utils>();
 
 
 builder.Services.AddCors(options =>

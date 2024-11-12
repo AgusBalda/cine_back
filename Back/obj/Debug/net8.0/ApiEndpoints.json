@@ -164,6 +164,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Back.Controllers.PeliculasController",
+    "Method": "Get",
+    "RelativePath": "api/Peliculas/titulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "titulo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Back.Controllers.TransaccionesController",
     "Method": "Get",
     "RelativePath": "api/Transacciones",

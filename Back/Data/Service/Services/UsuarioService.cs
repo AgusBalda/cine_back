@@ -28,9 +28,9 @@ namespace Back.Data.Service.Services
             return _repository.GetByIdAsync(id);
         }
 
-        public Task<Usuario>? Login(string nombre, string contrasena)
+        public Task<Usuario>? ObtenerUsuarioPorNombre(string nombre, string apellido)
         {
-            return _repository.login(nombre, contrasena);
+            return _repository.GetByNameAsync(nombre, apellido);
         }
 
         public Task<List<Usuario>> ObtenerUsuarios()

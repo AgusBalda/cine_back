@@ -39,9 +39,9 @@ namespace Back.Data.Repository.Repositories
             return null;
         }
 
-        public async Task<Usuario>? login(string name, string contrasena)
+        public async Task<Usuario>? GetByNameAsync(string name, string lastname)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Nombre.Equals(name) && u.Contrasena.Equals(contrasena));
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Nombre.Equals(name) && u.Apellido.Equals(lastname));
             if (usuario != null)
             {
                 return usuario;

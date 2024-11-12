@@ -25,6 +25,8 @@ public partial class Funcione
 
     public int? IdTipoFuncion { get; set; }
 
+    public bool? Estado { get; set; }
+
     public virtual Pelicula CodPeliculaNavigation { get; set; }
 
     public virtual Promocione CodPromocionNavigation { get; set; }

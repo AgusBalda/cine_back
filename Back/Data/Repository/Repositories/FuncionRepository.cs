@@ -18,10 +18,10 @@ namespace Back.Data.Repository.Repositories
 
         public async Task<bool> Delete(int id)
         {
-            var funcion = GetById(id);
+            var funcion = await GetById(id);
             if (funcion != null) 
             {
-                _context.Funciones.Remove(await funcion);
+                funcion.Estado = false;
                 return await _context.SaveChangesAsync() != 0 ;
             }
             return false;
