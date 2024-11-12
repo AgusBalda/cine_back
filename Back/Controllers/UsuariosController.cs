@@ -52,15 +52,15 @@ namespace Back.Controllers
             }
         }
 
-        // GET api/<UsuariosController>
-        [HttpGet("buscar")]
-        public async Task<IActionResult> Get([FromQuery]string nombre, [FromQuery]string apellido)
+        // GET api/Usuario/login?nombre=...&contrasena=...
+        [HttpGet("login")]
+        public async Task<IActionResult> Get([FromQuery]string nombre, [FromQuery]string contrasena)
         {
             try
             {
-                if(ValidarNombre(nombre, apellido))
+                if(ValidarNombre(nombre, contrasena))
                 {
-                    return Ok(await _service.ObtenerUsuarioPorNombre(nombre, apellido));
+                    return Ok(await _service.ObtenerUsuarioPorNombre(nombre, contrasena));
                 }
                 else
                 {
