@@ -30,7 +30,7 @@ namespace Back.Data.Service.Services
 
         public Task<Usuario>? Login(string nombre, string contrasena)
         {
-            return _repository.GetByNameAsync(nombre, contrasena);
+            return _repository.login(nombre, contrasena);
         }
 
         public Task<List<Usuario>> ObtenerUsuarios()

@@ -6,7 +6,7 @@ namespace Back.Data.Repository.Interfaces
     {
         Task<List<Usuario>> GetAllAsync();
         Task<Usuario>? GetByIdAsync(int id);
-        Task<Usuario>? GetByNameAsync(string name, string apellido);
+        Task<Usuario>? login(string name, string contrasena);
         Task<bool> SaveAsync(Usuario usuario);
         Task<bool> DeleteAsync(int id);
     }
