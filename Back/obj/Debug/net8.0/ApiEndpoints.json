@@ -220,6 +220,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Back.Controllers.PromocionController",
+    "Method": "Get",
+    "RelativePath": "api/Promocion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.SalaController",
+    "Method": "Get",
+    "RelativePath": "api/Sala",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.TpFuncionesController",
+    "Method": "Get",
+    "RelativePath": "api/TpFunciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Back.Controllers.TransaccionesController",
     "Method": "Get",
     "RelativePath": "api/Transacciones",

@@ -118,7 +118,7 @@ namespace Back.Controllers
 
         private bool ValidarUsuario(Usuario usuario)
         {
-            return ValidarNombre(usuario.Nombre, usuario.Apellido) && ValidarCampoVacio(usuario.Email) && ValidarCampoVacio(usuario.Contrasena);
+            return ValidarNombre(usuario.Email, usuario.Contrasena) && ValidarCampoVacio(usuario.Apellido) && ValidarCampoVacio(usuario.Contrasena);
         }
 
         private bool ValidarCampoVacio(string campo)

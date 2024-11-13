@@ -1,118 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\funcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\funcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\clasificacionedadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\clasificacionedadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\idiomacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\idiomacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\interfaces\\idiomarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\interfaces\\idiomarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\clone tpbienhecho\\cine_back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\interfaces\\iclasificacionedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\interfaces\\iclasificacionedad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\clone tpbienhecho\\cine_back\\back\\controllers\\tpfuncionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\tpfuncionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\services\\clasificacionedadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\clasificacionedadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\services\\directoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\directoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\interfaces\\igeneroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\interfaces\\igeneroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\interfaces\\iidiomaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\interfaces\\iidiomaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\generocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\interfaces\\iclasificacionedadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\interfaces\\iclasificacionedadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\interfaces\\idirectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\interfaces\\idirectorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\services\\idiomaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\idiomaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\services\\generoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\generoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\service\\interfaces\\ifuncionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\interfaces\\ifuncionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\repositories\\idiomarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\repositories\\idiomarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\repositories\\generorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\repositories\\directorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\repositories\\directorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\repositories\\clasificacionedadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\repositories\\clasificacionedadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\interfaces\\igenerorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\login\\cine_back\\back\\data\\repository\\interfaces\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\repository\\interfaces\\idirectorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\clone tpbienhecho\\cine_back\\back\\data\\service\\services\\tpfuncionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\tpfuncionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,370 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClasificacionEdadController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\ClasificacionEdadController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\ClasificacionEdadController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\ClasificacionEdadController.cs",
-              "RelativeToolTip": "Back\\Controllers\\ClasificacionEdadController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TpFuncionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Controllers\\TpFuncionesController.cs",
+              "RelativeDocumentMoniker": "Back\\Controllers\\TpFuncionesController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Controllers\\TpFuncionesController.cs",
+              "RelativeToolTip": "Back\\Controllers\\TpFuncionesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:04:40.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FuncionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\FuncionesController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\FuncionesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\FuncionesController.cs",
-              "RelativeToolTip": "Back\\Controllers\\FuncionesController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAcwIQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:09:05.657Z",
+              "WhenOpened": "2024-11-13T05:09:28.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PeliculasController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\PeliculasController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\PeliculasController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\PeliculasController.cs",
-              "RelativeToolTip": "Back\\Controllers\\PeliculasController.cs",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAuwKAAAAAbAAAAAAAAAA==",
+              "Title": "TpFuncionesService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Data\\Service\\Services\\TpFuncionesService.cs",
+              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\TpFuncionesService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Data\\Service\\Services\\TpFuncionesService.cs",
+              "RelativeToolTip": "Back\\Data\\Service\\Services\\TpFuncionesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:58:04.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransaccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\TransaccionesController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\TransaccionesController.cs",
-              "RelativeToolTip": "Back\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAuwIEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:57:55.592Z",
+              "WhenOpened": "2024-11-13T05:06:17.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Back\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAYwJ0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:07:54.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DirectorController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\DirectorController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\DirectorController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\DirectorController.cs",
-              "RelativeToolTip": "Back\\Controllers\\DirectorController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:04:51.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IdiomaController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\IdiomaController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\IdiomaController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\IdiomaController.cs",
-              "RelativeToolTip": "Back\\Controllers\\IdiomaController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAxwBoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:55:41.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IDiomaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IDiomaRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Interfaces\\IDiomaRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IDiomaRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Interfaces\\IDiomaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:11.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Program.cs",
               "RelativeDocumentMoniker": "Back\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Program.cs",
               "RelativeToolTip": "Back\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T01:58:25.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IClasificacionEdad.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IClasificacionEdad.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Interfaces\\IClasificacionEdad.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IClasificacionEdad.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Interfaces\\IClasificacionEdad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:07.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClasificacionEdadService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\ClasificacionEdadService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\ClasificacionEdadService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\ClasificacionEdadService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\ClasificacionEdadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:03:19.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DirectoresService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\DirectoresService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\DirectoresService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\DirectoresService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\DirectoresService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:03:26.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IGeneroService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IGeneroService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Interfaces\\IGeneroService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IGeneroService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Interfaces\\IGeneroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:03:13.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IIdiomaService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IIdiomaService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Interfaces\\IIdiomaService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IIdiomaService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Interfaces\\IIdiomaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:03:14.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GeneroController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\GeneroController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\GeneroController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Controllers\\GeneroController.cs",
-              "RelativeToolTip": "Back\\Controllers\\GeneroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:07:33.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IClasificacionEdadService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IClasificacionEdadService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Interfaces\\IClasificacionEdadService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IClasificacionEdadService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Interfaces\\IClasificacionEdadService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:54.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TransaccionService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\TransaccionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:05:47.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IDirectorService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IDirectorService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Interfaces\\IDirectorService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IDirectorService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Interfaces\\IDirectorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:57.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:05:45.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GeneroService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\GeneroService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\GeneroService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\GeneroService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\GeneroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:04:26.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IdiomaService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\IdiomaService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\IdiomaService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Services\\IdiomaService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\IdiomaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:04:34.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IFuncionService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IFuncionService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Interfaces\\IFuncionService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Service\\Interfaces\\IFuncionService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Interfaces\\IFuncionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:03:02.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IdiomaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\IdiomaRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Repositories\\IdiomaRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\IdiomaRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Repositories\\IdiomaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:51.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\GeneroRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Repositories\\GeneroRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\GeneroRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Repositories\\GeneroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:44.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DirectorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\DirectorRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Repositories\\DirectorRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\DirectorRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Repositories\\DirectorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:39.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ClasificacionEdadRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\ClasificacionEdadRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Repositories\\ClasificacionEdadRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Repositories\\ClasificacionEdadRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Repositories\\ClasificacionEdadRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:29.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IGeneroRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IGeneroRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Interfaces\\IGeneroRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IGeneroRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Interfaces\\IGeneroRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:18.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IDirectorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IDirectorRepository.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Repository\\Interfaces\\IDirectorRepository.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Data\\Repository\\Interfaces\\IDirectorRepository.cs",
-              "RelativeToolTip": "Back\\Data\\Repository\\Interfaces\\IDirectorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:02:15.881Z",
               "EditorCaption": ""
             }
           ]

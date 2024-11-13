@@ -28,6 +28,12 @@ builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
 builder.Services.AddScoped<IGeneroService, GeneroService>();
 builder.Services.AddScoped<IDiomaRepository,IdiomaRepository>();
 builder.Services.AddScoped<IIdiomaService, IdiomaService>();
+builder.Services.AddScoped<ISalaRepository , SalaRepository>();
+builder.Services.AddScoped<ISalaService , SalaService>();
+builder.Services.AddScoped<IPromocionesService , PromocionesService>();
+builder.Services.AddScoped<IPromocionesRespository, PromocionesRespository>();
+builder.Services.AddScoped<ITpFuncionRepository , TpFuncionRepository>();
+builder.Services.AddScoped<ITpFuncionesService , TpFuncionesService>();
 
 
 builder.Services.AddCors(options =>

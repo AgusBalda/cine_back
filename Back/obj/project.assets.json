@@ -4182,11 +4182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Back.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Back.csproj",
       "projectName": "Back",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\Back.csproj",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\Back.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\login\\cine_back\\Back\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\clone tpBienhecho\\cine_back\\Back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
