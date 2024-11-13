@@ -420,6 +420,22 @@
   },
   {
     "ContainingType": "Back.Controllers.UsuariosController",
+    "Method": "Register",
+    "RelativePath": "api/Usuarios/RegisterUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Back.Data.VM.UsuarioVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.UsuariosController",
     "Method": "Post",
     "RelativePath": "api/Usuarios/Registrar",
     "HttpMethod": "POST",

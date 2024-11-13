@@ -1,5 +1,7 @@
 ﻿using Back.Data.Models;
+using Back.Data.Repository.Interfaces;
 using Back.Data.Service.Interfaces;
+using Back.Data.VM;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,10 +14,12 @@ namespace Back.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuarioService _service;
+        private readonly IUsuarioRepository _repo;
 
-        public UsuariosController(IUsuarioService service)
+        public UsuariosController(IUsuarioService service , IUsuarioRepository repo)
         {
             _service = service;
+            _repo = repo;
         }
 
         // GET: api/<UsuariosController>
@@ -125,6 +129,19 @@ namespace Back.Controllers
         {
             return !string.IsNullOrEmpty(campo);
         }
+
+
+        [HttpPost("RegisterUser")]
+        public async Task<IActionResult> Register([FromBody] UsuarioVM modelo)
+        {
+            var (exito, mensaje) = await _repo.RegisterAsync(modelo);
+            if (!exito)
+            {
+                return BadRequest(new { mensaje });
+            }
+            return Ok(new { mensaje });
+        }
+
 
         // PUT api/<UsuariosController>/5
         [HttpPut("Modificar")]
