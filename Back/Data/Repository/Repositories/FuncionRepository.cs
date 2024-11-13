@@ -19,14 +19,21 @@ namespace Back.Data.Repository.Repositories
         public async Task<bool> Delete(int id)
         {
             var funcion = await GetById(id);
-            if (funcion != null) 
+            if (funcion != null && funcion.Estado == true)
             {
                 funcion.Estado = false;
-                return await _context.SaveChangesAsync() != 0 ;
+                return await _context.SaveChangesAsync() != 0;
             }
-            return false;
+            else if (funcion != null && funcion.Estado == false)
+            {
+                funcion.Estado = true;
+                return await _context.SaveChangesAsync() != 0;
+            }
+            else
+            {
+                return false;
+            }
         }
-
         public async Task<List<Funcione>> GetAll()
         {
             return await _context.Funciones.ToListAsync();

@@ -34,6 +34,7 @@ builder.Services.AddScoped<IPromocionesService , PromocionesService>();
 builder.Services.AddScoped<IPromocionesRespository, PromocionesRespository>();
 builder.Services.AddScoped<ITpFuncionRepository , TpFuncionRepository>();
 builder.Services.AddScoped<ITpFuncionesService , TpFuncionesService>();
+builder.Services.AddScoped<IUtilsFuncion, UtilsFuncion>();
 
 
 builder.Services.AddCors(options =>
