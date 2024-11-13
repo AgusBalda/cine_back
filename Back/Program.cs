@@ -20,6 +20,14 @@ builder.Services.AddScoped<IFuncionService, FuncionService>();
 builder.Services.AddScoped<IPeliculasRepository, PeliculaRepository>();
 builder.Services.AddScoped<IPeliculaService, PeliculaService>();
 builder.Services.AddScoped<IUtils, Utils>();
+builder.Services.AddScoped<IClasificacionEdad,ClasificacionEdadRepository>();
+builder.Services.AddScoped<IClasificacionEdadService, ClasificacionEdadService>();
+builder.Services.AddScoped<IDirectorRepository, DirectorRepository>();
+builder.Services.AddScoped<IDirectorService, DirectoresService>();
+builder.Services.AddScoped<IGeneroRepository, GeneroRepository>();
+builder.Services.AddScoped<IGeneroService, GeneroService>();
+builder.Services.AddScoped<IDiomaRepository,IdiomaRepository>();
+builder.Services.AddScoped<IIdiomaService, IdiomaService>();
 
 
 builder.Services.AddCors(options =>

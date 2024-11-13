@@ -62,7 +62,7 @@ namespace Back.Controllers
             }
         }
 
-        [HttpGet("titulo")]
+        [HttpGet("Titulo")]
         public async Task<IActionResult> Get(string titulo)
         {
             try
@@ -91,7 +91,7 @@ namespace Back.Controllers
         }
 
         // POST api/<PeliculasController>
-        [HttpPost]
+        [HttpPost("Registrar")]
         public IActionResult Post([FromBody] Pelicula pelicula)
         {
             try
@@ -130,7 +130,7 @@ namespace Back.Controllers
         }
 
         // PUT api/<PeliculasController>/5
-        [HttpPut]
+        [HttpPut("Modificar")]
         public IActionResult Put([FromBody] Pelicula pelicula)
         {
             try
@@ -158,7 +158,7 @@ namespace Back.Controllers
         }
 
         // DELETE api/<PeliculasController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Borrar{id}")]
         public IActionResult Delete(int id)
         {
             try

@@ -66,7 +66,7 @@ namespace Back.Controllers
         } 
 
         // POST api/<TransaccionesController>
-        [HttpPost]
+        [HttpPost("Registrar")]
         public IActionResult Post([FromBody] Transaccione transaccion)
         {
             try
@@ -99,7 +99,7 @@ namespace Back.Controllers
         }
 
         // PUT api/<TransaccionesController>/5
-        [HttpPut]
+        [HttpPut("Modificar")]
         public IActionResult Put([FromBody] Transaccione transaccion)
         {
             try
@@ -127,7 +127,7 @@ namespace Back.Controllers
         }
 
         // DELETE api/<TransaccionesController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Borrar {id}")]
         public IActionResult Delete(int id)
         {
             try

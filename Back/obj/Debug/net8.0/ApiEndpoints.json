@@ -1,8 +1,18 @@
 [
   {
-    "ContainingType": "Back.Controllers.FuncionesController",
+    "ContainingType": "Back.Controllers.ClasificacionEdadController",
     "Method": "Get",
-    "RelativePath": "api/Funciones",
+    "RelativePath": "api/ClasificacionEdad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.DirectorController",
+    "Method": "Get",
+    "RelativePath": "api/Director",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -11,34 +21,12 @@
   },
   {
     "ContainingType": "Back.Controllers.FuncionesController",
-    "Method": "Post",
+    "Method": "Get",
     "RelativePath": "api/Funciones",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "funcion",
-        "Type": "Back.Data.Models.Funcione",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Back.Controllers.FuncionesController",
-    "Method": "Put",
-    "RelativePath": "api/Funciones",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "funcion",
-        "Type": "Back.Data.Models.Funcione",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -60,7 +48,7 @@
   {
     "ContainingType": "Back.Controllers.FuncionesController",
     "Method": "Delete",
-    "RelativePath": "api/Funciones/{id}",
+    "RelativePath": "api/Funciones/Borrar {id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -90,9 +78,51 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Back.Controllers.PeliculasController",
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Put",
+    "RelativePath": "api/Funciones/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcion",
+        "Type": "Back.Data.Models.Funcione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.FuncionesController",
+    "Method": "Post",
+    "RelativePath": "api/Funciones/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcion",
+        "Type": "Back.Data.Models.Funcione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.GeneroController",
     "Method": "Get",
-    "RelativePath": "api/Peliculas",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.IdiomaController",
+    "Method": "Get",
+    "RelativePath": "api/Idioma",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -101,34 +131,12 @@
   },
   {
     "ContainingType": "Back.Controllers.PeliculasController",
-    "Method": "Post",
+    "Method": "Get",
     "RelativePath": "api/Peliculas",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "pelicula",
-        "Type": "Back.Data.Models.Pelicula",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Back.Controllers.PeliculasController",
-    "Method": "Put",
-    "RelativePath": "api/Peliculas",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "pelicula",
-        "Type": "Back.Data.Models.Pelicula",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -150,7 +158,7 @@
   {
     "ContainingType": "Back.Controllers.PeliculasController",
     "Method": "Delete",
-    "RelativePath": "api/Peliculas/{id}",
+    "RelativePath": "api/Peliculas/Borrar{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -165,8 +173,40 @@
   },
   {
     "ContainingType": "Back.Controllers.PeliculasController",
+    "Method": "Put",
+    "RelativePath": "api/Peliculas/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pelicula",
+        "Type": "Back.Data.Models.Pelicula",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.PeliculasController",
+    "Method": "Post",
+    "RelativePath": "api/Peliculas/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pelicula",
+        "Type": "Back.Data.Models.Pelicula",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.PeliculasController",
     "Method": "Get",
-    "RelativePath": "api/Peliculas/titulo",
+    "RelativePath": "api/Peliculas/Titulo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -191,38 +231,6 @@
   },
   {
     "ContainingType": "Back.Controllers.TransaccionesController",
-    "Method": "Post",
-    "RelativePath": "api/Transacciones",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "transaccion",
-        "Type": "Back.Data.Models.Transaccione",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Back.Controllers.TransaccionesController",
-    "Method": "Put",
-    "RelativePath": "api/Transacciones",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "transaccion",
-        "Type": "Back.Data.Models.Transaccione",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Back.Controllers.TransaccionesController",
     "Method": "Get",
     "RelativePath": "api/Transacciones/{id}",
     "HttpMethod": "GET",
@@ -240,7 +248,7 @@
   {
     "ContainingType": "Back.Controllers.TransaccionesController",
     "Method": "Delete",
-    "RelativePath": "api/Transacciones/{id}",
+    "RelativePath": "api/Transacciones/Borrar {id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -270,6 +278,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Back.Controllers.TransaccionesController",
+    "Method": "Put",
+    "RelativePath": "api/Transacciones/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccion",
+        "Type": "Back.Data.Models.Transaccione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.TransaccionesController",
+    "Method": "Post",
+    "RelativePath": "api/Transacciones/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccion",
+        "Type": "Back.Data.Models.Transaccione",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Back.Controllers.UsuariosController",
     "Method": "Get",
     "RelativePath": "api/Usuarios",
@@ -277,38 +317,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Back.Controllers.UsuariosController",
-    "Method": "Post",
-    "RelativePath": "api/Usuarios",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuario",
-        "Type": "Back.Data.Models.Usuario",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Back.Controllers.UsuariosController",
-    "Method": "Put",
-    "RelativePath": "api/Usuarios",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuario",
-        "Type": "Back.Data.Models.Usuario",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -330,7 +338,7 @@
   {
     "ContainingType": "Back.Controllers.UsuariosController",
     "Method": "Delete",
-    "RelativePath": "api/Usuarios/{id}",
+    "RelativePath": "api/Usuarios/Borrar {id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -360,6 +368,38 @@
         "Name": "contrasena",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.UsuariosController",
+    "Method": "Put",
+    "RelativePath": "api/Usuarios/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Back.Data.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Back.Controllers.UsuariosController",
+    "Method": "Post",
+    "RelativePath": "api/Usuarios/Registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "Back.Data.Models.Usuario",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

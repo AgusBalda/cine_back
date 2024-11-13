@@ -89,7 +89,7 @@ namespace Back.Controllers
         }
 
         // POST api/<UsuariosController>
-        [HttpPost]
+        [HttpPost("Registrar")]
         public IActionResult Post([FromBody] Usuario usuario)
         {
             try
@@ -127,7 +127,7 @@ namespace Back.Controllers
         }
 
         // PUT api/<UsuariosController>/5
-        [HttpPut]
+        [HttpPut("Modificar")]
         public IActionResult Put([FromBody] Usuario usuario)
         {
             try
@@ -155,7 +155,7 @@ namespace Back.Controllers
         }
 
         // DELETE api/<UsuariosController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Borrar {id}")]
         public IActionResult Delete(int id)
         {
             try

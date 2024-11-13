@@ -68,7 +68,7 @@ namespace Back.Controllers
 
 
         // POST api/<FuncionesController>
-        [HttpPost]
+        [HttpPost("Registrar")]
         public IActionResult Post([FromBody] Funcione funcion)
         {
             try
@@ -102,7 +102,7 @@ namespace Back.Controllers
 
 
 
-        [HttpPut]
+        [HttpPut("Modificar")]
         public IActionResult Put([FromBody] Funcione funcion)
         {
             try
@@ -130,7 +130,7 @@ namespace Back.Controllers
         }
 
         // DELETE api/<FuncionesController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Borrar {id}")]
         public IActionResult Delete(int id)
         {
             try
