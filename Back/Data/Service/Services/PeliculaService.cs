@@ -37,10 +37,14 @@ namespace Back.Data.Service.Services
                 FechaEstreno = p.FechaEstreno,
                 DuracionMin = p.DuracionMin,
                 Portada = p.Portada,
-                Genero = _utils.GetGender(p.IdGenero.Value),
-                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion.Value),
-                Director = _utils.GetDirector(p.IdDirector.Value),
-                Idioma = _utils.GetLanguage(p.IdIdioma.Value),
+                Genero = _utils.GetGender(p.IdGenero),
+                IdGenero = p.IdGenero,
+                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion),
+                IdClasificacionEdad = p.IdClasificacion,
+                Director = _utils.GetDirector(p.IdDirector),
+                IdDirector = p.IdDirector,
+                Idioma = _utils.GetLanguage(p.IdIdioma),
+                IdIdioma = p.IdIdioma,
             };
 
             return peliculaDto;
@@ -58,10 +62,14 @@ namespace Back.Data.Service.Services
                 FechaEstreno = p.FechaEstreno,
                 DuracionMin = p.DuracionMin,
                 Portada = p.Portada,
-                Genero = _utils.GetGender(p.IdGenero.Value),
-                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion.Value),
-                Director = _utils.GetDirector(p.IdDirector.Value),
-                Idioma = _utils.GetLanguage(p.IdIdioma.Value),
+                Genero = _utils.GetGender(p.IdGenero),
+                IdGenero = p.IdGenero,
+                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion),
+                IdClasificacionEdad = p.IdClasificacion,
+                Director = _utils.GetDirector(p.IdDirector),
+                IdDirector = p.IdDirector,
+                Idioma = _utils.GetLanguage(p.IdIdioma),
+                IdIdioma = p.IdIdioma,
             };
 
             return peliculaDto;
@@ -79,10 +87,14 @@ namespace Back.Data.Service.Services
                 FechaEstreno = p.FechaEstreno,
                 DuracionMin = p.DuracionMin,
                 Portada = p.Portada,
-                Genero = _utils.GetGender(p.IdGenero.Value),
-                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion.Value),
-                Director = _utils.GetDirector(p.IdDirector.Value),
-                Idioma = _utils.GetLanguage(p.IdIdioma.Value),
+                Genero = _utils.GetGender(p.IdGenero),
+                IdGenero = p.IdGenero,
+                ClasificacionEdad = _utils.GetClasification(p.IdClasificacion),
+                IdClasificacionEdad = p.IdClasificacion,
+                Director = _utils.GetDirector(p.IdDirector),
+                IdDirector = p.IdDirector,
+                Idioma = _utils.GetLanguage(p.IdIdioma),
+                IdIdioma = p.IdIdioma,
 
             }).ToList();
 

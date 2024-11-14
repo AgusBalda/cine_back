@@ -12,17 +12,17 @@ public partial class Pelicula
 
     public string Titulo { get; set; }
 
-    public DateTime? FechaEstreno { get; set; }
+    public DateTime FechaEstreno { get; set; }
 
-    public int? DuracionMin { get; set; }
+    public int DuracionMin { get; set; }
 
-    public int? IdGenero { get; set; }
+    public int IdGenero { get; set; }
 
-    public int? IdClasificacion { get; set; }
+    public int IdClasificacion { get; set; }
 
-    public int? IdDirector { get; set; }
+    public int IdDirector { get; set; }
 
-    public int? IdIdioma { get; set; }
+    public int IdIdioma { get; set; }
 
     public string Portada { get; set; }
     [JsonIgnore]

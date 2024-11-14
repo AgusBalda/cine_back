@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\ultimo_commit\\cine_back\\back\\controllers\\funcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\controllers\\funcionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\ultimo_commit\\cine_back\\back\\data\\service\\services\\peliculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\peliculaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\ultimo_commit\\cine_back\\back\\data\\models\\funcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\models\\funcione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\ultimo_commit\\cine_back\\back\\data\\service\\services\\funcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\service\\services\\funcionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\ultimo_commit\\cine_back\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|c:\\users\\usuario\\onedrive\\escritorio\\ultimo_commit\\cine_back\\back\\data\\models\\peliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5641D302-DA40-4980-8EC1-597376E119E5}|Back\\Back.csproj|solutionrelative:back\\data\\models\\peliculadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FuncionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Controllers\\FuncionesController.cs",
-              "RelativeDocumentMoniker": "Back\\Controllers\\FuncionesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Controllers\\FuncionesController.cs",
-              "RelativeToolTip": "Back\\Controllers\\FuncionesController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:11:25.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Funcione.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Models\\Funcione.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Models\\Funcione.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Models\\Funcione.cs",
-              "RelativeToolTip": "Back\\Data\\Models\\Funcione.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Title": "PeliculaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Models\\PeliculaDto.cs",
+              "RelativeDocumentMoniker": "Back\\Data\\Models\\PeliculaDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Models\\PeliculaDto.cs",
+              "RelativeToolTip": "Back\\Data\\Models\\PeliculaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:01:26.022Z",
+              "WhenOpened": "2024-11-14T01:34:49.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Program.cs",
-              "RelativeDocumentMoniker": "Back\\Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Program.cs",
-              "RelativeToolTip": "Back\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PeliculaService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Service\\Services\\PeliculaService.cs",
+              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\PeliculaService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Service\\Services\\PeliculaService.cs",
+              "RelativeToolTip": "Back\\Data\\Service\\Services\\PeliculaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:56:36.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FuncionService.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Service\\Services\\FuncionService.cs",
-              "RelativeDocumentMoniker": "Back\\Data\\Service\\Services\\FuncionService.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\ultimo_commit\\cine_back\\Back\\Data\\Service\\Services\\FuncionService.cs",
-              "RelativeToolTip": "Back\\Data\\Service\\Services\\FuncionService.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAIwFcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T19:30:59.497Z",
+              "WhenOpened": "2024-11-14T01:25:07.01Z",
               "EditorCaption": ""
             }
           ]
