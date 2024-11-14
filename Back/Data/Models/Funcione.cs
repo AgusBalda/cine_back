@@ -8,7 +8,7 @@ namespace Back.Data.Models;
 
 public partial class Funcione
 {
-    public int CodFuncion { get; set; }
+    public int? CodFuncion { get; set; }
 
     public TimeOnly? HoraInicio { get; set; }
 
@@ -27,6 +27,7 @@ public partial class Funcione
     public int? IdTipoFuncion { get; set; }
 
     public bool? Estado { get; set; }
+
     [JsonIgnore]
     public virtual Pelicula CodPeliculaNavigation { get; set; }
     [JsonIgnore]

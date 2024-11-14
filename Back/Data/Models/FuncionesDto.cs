@@ -2,7 +2,7 @@
 {
     public class FuncionesDto
     {
-        public int CodFuncion { get; set; }
+        public int? CodFuncion { get; set; }
 
         public TimeOnly? HoraInicio { get; set; }
 
@@ -12,13 +12,17 @@
 
         public int? Dia { get; set; }
 
-        public string TituloPeli { get; set; }
+        public string? TituloPeli { get; set; }
+
+        public int? IdPelicula { get; set; }
 
         public int? IdSala { get; set; }
 
-        public int? Promocion { get; set; }
+        public int? IdPromocion { get; set; }
 
-        public string TipoFuncion { get; set; }
+        public string? TipoFuncion { get; set; }
+
+        public int? IdTipoFuncion { get; set; }
 
         public bool? Estado { get; set; }
     }

@@ -31,16 +31,18 @@ namespace Back.Data.Service.Services
 
             var FuncionessDto = ap.Select(p => new FuncionesDto
             {
-                CodFuncion = p.CodFuncion,
-                HoraInicio = p.HoraInicio,
-                Precio = p.Precio,
-                Subtitulo = p.Subtitulo,
-                Dia = p.Dia,
-                TituloPeli = _utils.GetPelicula(p.CodPelicula.Value),
-                IdSala = p.IdSala,
-                Promocion = p.CodPromocion,
-                TipoFuncion = _utils.GetTipoFuncion(p.IdTipoFuncion.Value),
-                Estado = p.Estado
+                CodFuncion = p.CodFuncion ?? 0,
+                HoraInicio = p.HoraInicio ?? null,
+                Precio = p.Precio ?? 0,
+                Subtitulo = p.Subtitulo ?? null,
+                Dia = p.Dia ?? 0,
+                TituloPeli = _utils.GetPelicula(p.CodPelicula ?? 0),
+                IdPelicula = p.CodPelicula ?? 0,
+                IdSala = p.IdSala ?? 0,
+                IdPromocion = p.CodPromocion ?? 0,
+                TipoFuncion = _utils.GetTipoFuncion(p.IdTipoFuncion ?? 0),
+                IdTipoFuncion = p.IdTipoFuncion ?? 0,
+                Estado = p.Estado ?? null
 
 
             }).ToList();
@@ -54,17 +56,18 @@ namespace Back.Data.Service.Services
 
             var FuncionessDto = ap.Select(p => new FuncionesDto
             {
-                CodFuncion = p.CodFuncion,
-                HoraInicio = p.HoraInicio,
-                Precio = p.Precio,
-                Subtitulo = p.Subtitulo,
-                Dia = p.Dia,
-                TituloPeli = _utils.GetPelicula(p.CodPelicula.Value),
-                IdSala = p.IdSala,
-                Promocion = p.CodPromocion,
-                TipoFuncion = _utils.GetTipoFuncion(p.IdTipoFuncion.Value),
-                Estado = p.Estado
-
+                CodFuncion = p.CodFuncion ?? 0,
+                HoraInicio = p.HoraInicio ?? null,
+                Precio = p.Precio ?? 0,
+                Subtitulo = p.Subtitulo ?? null,
+                Dia = p.Dia ?? 0,
+                TituloPeli = _utils.GetPelicula(p.CodPelicula ?? 0),
+                IdPelicula = p.CodPelicula ?? 0,
+                IdSala = p.IdSala ?? 0,
+                IdPromocion = p.CodPromocion ?? 0,
+                TipoFuncion = _utils.GetTipoFuncion(p.IdTipoFuncion ?? 0),
+                IdTipoFuncion = p.IdTipoFuncion ?? 0,
+                Estado = p.Estado ?? null
 
             }).ToList();
             return FuncionessDto;
@@ -72,21 +75,22 @@ namespace Back.Data.Service.Services
 
         public async Task<FuncionesDto>? ObtenerFuncionesPorId(int id)
         {
-            var ap = await _repository.GetById(id);
+            var p = await _repository.GetById(id);
 
             var FuncionessDto = new FuncionesDto()
             {
-                CodFuncion = ap.CodFuncion,
-                HoraInicio = ap.HoraInicio,
-                Precio = ap.Precio,
-                Subtitulo = ap.Subtitulo,
-                Dia = ap.Dia,
-                TituloPeli = _utils.GetPelicula(ap.CodPelicula.Value),
-                IdSala = ap.IdSala,
-                Promocion = ap.CodPromocion,
-                TipoFuncion = _utils.GetTipoFuncion(ap.IdTipoFuncion.Value),
-                Estado = ap.Estado
-
+                CodFuncion = p.CodFuncion ?? 0, 
+                HoraInicio = p.HoraInicio ?? null,  
+                Precio = p.Precio ?? 0,  
+                Subtitulo = p.Subtitulo ?? null,  
+                Dia = p.Dia ?? 0,  
+                TituloPeli = _utils.GetPelicula(p.CodPelicula ?? 0), 
+                IdPelicula = p.CodPelicula ?? 0, 
+                IdSala = p.IdSala ?? 0,  
+                IdPromocion = p.CodPromocion ?? 0,  
+                TipoFuncion = _utils.GetTipoFuncion(p.IdTipoFuncion ?? 0),
+                IdTipoFuncion = p.IdTipoFuncion ?? 0,
+                Estado = p.Estado ?? null  
 
             };
             return FuncionessDto;
