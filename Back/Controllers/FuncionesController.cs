@@ -97,7 +97,7 @@ namespace Back.Controllers
 
         private bool ValidarFuncion(Funcione funcion)
         {
-            return funcion.CodFuncion > 0 && funcion.Dia > 0;
+            return   funcion.Dia > 0;
         }
 
 
