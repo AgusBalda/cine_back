@@ -5,11 +5,15 @@ using Back.Data.Service.Interfaces;
 using Back.Data.Service.Services;
 using Back.Utilities;
 using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<CineDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MiConexion")));
+builder.Services.AddDbContext<CineDBContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("MiConexion"),
+    ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("MiConexion"))));
+
 
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
